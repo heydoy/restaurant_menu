@@ -1,7 +1,9 @@
 <template>
+  <!-- 공통 base --> 
   <div id="app" class="container">
     <router-link :to="{ path: '/'}"><img src="./assets/logo.png" class="logo"></router-link>
     <TheLayout>
+    <!-- 이 안에서 필요한 내용들이 바뀌는 --> 
     </TheLayout>
   </div>
 </template>
