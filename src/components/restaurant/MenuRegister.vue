@@ -74,7 +74,9 @@
     </ValidationObserver>
   </div>
 </template>
-
+<style>
+<!-- 스타일 --> 
+</style>
 <script>
   import valid from '@/components/mixin/validate'
 
